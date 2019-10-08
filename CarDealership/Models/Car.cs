@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 namespace CarDealership.Models
 {
-  class Car
+  public class Car
   {
     public string MakeModel { get; set; }
     public int Price { get; set; }
