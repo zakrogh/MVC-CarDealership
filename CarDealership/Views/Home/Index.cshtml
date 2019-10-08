@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-    <meta charset="utf-8">
-    <title>Car Dealership</title>
-  </head>
-  <body>
-    <div class="jumbotron">
-      <h2>Car Dealership</h2>
-    </div>
-    <button class="btn btn-success" type="button" name="addcar" onclick="window.location.href='/cars/new'">Add a car</button>
-    <button class="btn btn-primary" type="button" name="viewcars" onclick="window.location.href='/cars'">View all cars</button>
-  </body>
-</html>
+@{
+  Layout = "_Layout";
+}
+<button class="btn btn-success" type="button" name="addcar" onclick="window.location.href='/cars/new'">Add a car</button>
+<button class="btn btn-primary" type="button" name="viewcars" onclick="window.location.href='/cars'">View all cars</button>
